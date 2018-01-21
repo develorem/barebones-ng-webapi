@@ -1,0 +1,5 @@
+<h3>New User</h3>
+Username: <input type="text"  [(ngModel)]="username">
+Pass: <input type="password" [(ngModel)]="password">
+<button type="button" value="Login" (click)="attemptRegister()">Register</button>
+<div id="error" class="error">{{error}}</div>
